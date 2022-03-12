@@ -12,7 +12,7 @@ namespace UnitTests
 	public class CreaterTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void NewTableTest_СorrectExecution_AreEqual()
 		{
 			var facade = new Facade(new KitchenTableSubsystem());
 			var creator = new Creator(TestChipboardCollection());

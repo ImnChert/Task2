@@ -10,10 +10,10 @@ using System.Collections.Generic;
 namespace UnitTests
 {
 	[TestClass]
-	public class UnitTest1
+	public class XMLTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void XMLWriterAndXMLReader_ÑorrectExecution_AreEqual()
 		{
 			var table = new List<Table>
 				{
